@@ -54,3 +54,20 @@ input, select{
     text-align: center;
     margin-top: 0%;
 }
+#prohead{
+    /* border: 1px solid red; */
+    padding: 10px;
+    text-align: right;
+    width: 90%;
+    margin: auto;
+}
+#prohead>a{
+    text-decoration: none;
+    background-color: rgba(255, 140, 0, 0.796);
+    color: black;
+    padding: 5px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
