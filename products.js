@@ -65,3 +65,6 @@ var products=JSON.parse(localStorage.getItem('Products'));
             div.append(image,name,price,category, div2);
             document.getElementById('container').append(div);
         });
+
+var counter=products.length;
+document.getElementById('counter').innerText='Product Count: '+counter;
