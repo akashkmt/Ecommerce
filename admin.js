@@ -25,6 +25,7 @@ document.querySelector('#inputForm').addEventListener('submit', function () {
     // console.log(event)
 
     products.push(product);
+    alert('Item added successfully')
     localStorage.setItem('Products',JSON.stringify(products));
     document.getElementById('inputForm').reset();
 
